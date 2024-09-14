@@ -1,6 +1,6 @@
 {
   "name": "@barelyhuman/prettier-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Shared Prettier config for projects that aren't using wrap",
   "repository": "https://github.com/barelyhuman/prettier-config",
   "author": "Reaper <ahoy@barelyhuman.dev> (https://github.com/barelyhuman)",
