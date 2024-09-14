@@ -4,6 +4,8 @@ const fs = require('fs')
 
 let data
 
+const pkg = require(join(__dirname,"./package.json"))
+
 try{
     fs.writeFileSync(
         'package.json',
@@ -12,7 +14,7 @@ try{
             {},
             (data = JSON.parse(fs.readFileSync('package.json', 'utf8'))),
             {
-              prettier: data.name,
+              prettier: pkg.name,
             }
           )
           ,null,2
