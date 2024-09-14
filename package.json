@@ -8,7 +8,7 @@
     "test": "true",
     "next": "bumpp"
   },
-  "cli": "./cli.js",
+  "bin": "./cli.js",
   "main": "index.json",
   "files": [
     "index.json"
