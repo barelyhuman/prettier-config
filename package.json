@@ -5,7 +5,8 @@
   "repository": "https://github.com/barelyhuman/prettier-config",
   "author": "Reaper <ahoy@barelyhuman.dev> (https://github.com/barelyhuman)",
   "scripts": {
-    "test": "true"
+    "test": "true",
+    "next": "bumpp"
   },
   "cli": "./cli.js",
   "main": "index.json",
@@ -14,6 +15,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "bumpp": "^9.5.2",
     "prettier": "^2.0.5"
   },
   "prettier": "./index.json",
